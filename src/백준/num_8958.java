@@ -40,6 +40,7 @@ public class num_8958 {
             System.out.println(sum);
 
         }
+    }
 }
 
 //        int caseNum = sc.nextInt();
