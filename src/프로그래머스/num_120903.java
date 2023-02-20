@@ -13,7 +13,7 @@ public class num_120903 {
 
         for(int i = 0; i < l1; i++) {
             for (int j = 0; j < l2; j++) {
-                if(s1[i] == s2[j]) {
+                if(s1[i].equals(s2[j])) {
                     answer++;
                 }
             }
