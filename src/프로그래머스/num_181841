@@ -1,0 +1,15 @@
+class Solution {
+    public String solution(String[] str_list, String ex) {
+        String answer = "";
+        String answer_x = "";
+        
+        for (int i = 0; i < str_list.length; i++) {
+            if(str_list[i].contains(ex)) {
+                answer_x += str_list[i];
+            } else
+                answer += str_list[i];
+        }
+        
+        return answer;
+    }
+}
