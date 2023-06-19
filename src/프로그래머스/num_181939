@@ -1,0 +1,20 @@
+class Solution {
+    public int solution(int a, int b) {
+        int answer = 0;
+        
+        String str = Integer.toString(a);
+        String str_2 = Integer.toString(b);
+        
+        String c = str + str_2;
+        String d = str_2 + str;
+        
+        int e = Integer.parseInt(c);
+        int f = Integer.parseInt(d);
+        
+        if (e > f || e == f) {
+            answer = e;
+        } else answer = f;
+        
+        return answer;
+    }
+}
